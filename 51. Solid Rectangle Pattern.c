@@ -4,10 +4,10 @@ int main()
 {
     int rows,columns,i,j;
     printf("Enter the number of rows: ");
-    scanf("&d",&rows);
+    scanf("%d",&rows);
     //Takes input from user for rows
     printf("Enter the number of columns: ");
-    scanf("&d",&columns);
+    scanf("%d",&columns);
      //Takes input from user for columns
      for(i=1; i<=rows; i++){//outer for loop
     for (j=1; j<=columns; j++){//inner for loop
